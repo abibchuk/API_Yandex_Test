@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="YandexApiTest">
+    <test name="first">
+        <classes>
+            <class name="YandexApiTest" >
+                <methods>
+                    <include name="testTotalSpaceGetMethod"></include>
+                    <include name="testFileCopyPostMethod"></include>
+                    <include name="testDirCreatePutMethod"></include>
+                    <include name="testDirDelDeleteMethod"></include>
+                    <include name="testTrashInfoGetMethod"></include>
+                    <include name="testTrashDelDeleteMethod"></include>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
+
